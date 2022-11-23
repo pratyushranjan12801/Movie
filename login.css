@@ -1,0 +1,64 @@
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form__text p {
+    font-size: 1.3rem;
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    height: 40px;
+    width: 320px;
+    font-size: 18px;
+    padding: 10px;
+    margin: 8px 2px;
+  }
+  
+
+  
+  .other-form {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .form-forget {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #000000;
+  }
+  .form-forget:hover {
+    text-decoration: none;
+  }
+  
+  .form-text {
+    margin: 10px;
+    background-color: #f1f5f9;
+    width: 40%;
+    padding: 10px;
+    border-radius: 100px;
+    text-align: center;
+    max-width: 200px;
+  }
+  
+  .other-login {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 100px;
+    border: none;
+    background-color: aquamarine;
+    cursor: pointer;
+  }
+  
+
